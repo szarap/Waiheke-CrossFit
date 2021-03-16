@@ -1,0 +1,255 @@
+@import "_programmes.scss";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; }
+  
+  body {
+    background: rgba(0, 0, 0, 0.7);
+
+  }
+  /* menu */
+    .imgContainer {                    
+    background: url(../IMG/portada_4.jpeg);
+    position: relative;
+    z-index: -1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:100%;
+    height: 35em;      
+    h1 {
+    display: flex;
+    padding-top: 2rem;
+    font-size: 8rem;                   
+    letter-spacing: 1rem;
+    text-align: center;
+    justify-content: center;                  
+    font-family: 'Carter One', cursive;
+    font-family: 'Coda Caption', sans-serif;
+    font-family: 'Saira Stencil One', cursive;
+    color:rgba(0, 0, 0, 1) ;      
+    text-shadow: -2px -2px 1px rgb(255, 255, 255), 2px 2px 1px rgb(255, 255, 255), -2px 2px 1px rgb(255, 255, 255), 2px -2px 1px rgb(255, 255, 255);
+    }
+  }
+  .menu{
+    display: flex;
+    height: 3.5rem;        
+    background-color: black;
+    text-align: center;
+    justify-content: center;  
+    opacity: 0.87;
+    border-color: black;
+    border-bottom-color: rgb(255, 255, 255);
+    border-style: solid;     
+    & li a {
+    display: inline-block;    
+    position: relative;    
+    z-index: -1rem;
+    color: rgb(243, 9, 9);
+    text-transform: capitalize;      
+    font-size: 2rem;    
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;   
+    &:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      text-shadow: 1px 1px 1px rgba(145, 138, 138, 0.953);            
+    } 
+  }
+}
+/* seccion eslogan*/
+.section--2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  .boxMain {
+  color: rgba(145, 138, 138, 0.953);
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  font-family: 'Odibee Sans', cursive;
+  margin-bottom: 0.5rem;         
+  }
+  h2{
+  font-size: 4rem;
+  text-shadow: 0.5px 0.5px #0c0c0c;
+  }
+  span{ 
+  font-size: 8rem;
+  text-shadow: 1px 1px #ffffff;
+  }
+  .textBox{  
+  width: 19rem;
+  height: 6rem;
+  font-family: 'Teko', sans-serif;
+  font-size: 4.5rem;
+  margin-bottom: 2.5rem;
+  border-style: solid;            
+  border-color: black;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 2px #000000;
+  color:#ffffff;
+  background: rgb(255, 2, 2);}
+  a:link, a:visited, a:active {
+  text-decoration:none;}
+  .botonEnviar{
+    color:#ffffff;
+    background-color:rgb(255, 2, 2);
+    display: flex;
+    justify-content: center;
+   }
+    
+  }
+ 
+
+/* secccion contenido index */
+.section--3{ 
+  display: flex;
+  justify-content: space-between;        
+  font-family: 'Odibee Sans', cursive;  
+  margin: 2rem 0;
+  .box{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;    
+  width: 25%;
+  height:33rem;
+  border-radius: 3px;
+  border: 5px;
+  border-style: solid;
+  border-color:rgba(255, 255, 255, 0.118);  
+  font-size: 3rem;     
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.85;
+  color: #ffffff;    
+  margin: 0 1rem;
+  & :hover{
+    color: #ffffff;
+    border: #da22226e solid 1px;
+    background:#da22226e ;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;     
+  }      
+  }
+  
+  .box1a{  
+  background-image: url(../IMG/imgIndex6.jpg);   
+  }
+  .box1b{    
+  background-image: url(../IMG/imgIndex3.jpg);
+  }
+  .box1c{          
+  background-image: url(../IMG/imgIndex4.jpg);
+  }
+  .box1d{     
+  background-image: url(../IMG/imgIndex5.jpg);
+}
+}
+
+.tarjeta-index{
+  color:rgb(243, 9, 9);
+}
+
+ /* --------------footer------------ */
+
+ .gridFooterContainer{                      
+    background: rgba(0, 0, 0, 0.7);     
+    width: 100%;
+    height: auto;       
+    display: grid;
+    justify-content: space-between; 
+    padding-top: 0.5rem;
+    grid-template-columns: auto auto auto; 
+    grid-template-rows: auto auto auto;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;}
+
+  .gridFooterItem ul{
+    list-style-type: none;
+  }
+  .gridFooterItem:first-child{   
+  grid-column: 1/2;
+  grid-row: 1/2;      
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;   
+  & .h4{
+  color: rgba(240, 15, 15, 0.939);    
+  }
+  & .h3{
+  font-family: 'Carter One', cursive;
+  font-family: 'Coda Caption', sans-serif;
+  font-family: 'Saira Stencil One', cursive;           
+  font-size: 1fr;
+  color:#ffffff;
+  letter-spacing: 3px; 
+  text-shadow: 2px 2px 2px #f30a0a;   
+  } 
+  }   
+  .gridFooterItem:nth-child(2){
+  grid-column: 2 / 3;
+  grid-row: 1 / 2; 
+  font-size: 1fr;    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  .socialM{
+  width: 15rem;
+  margin-top: 0.5rem;
+  border-top: rgba(240, 15, 15, 0.939) solid 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+  text-align: center;
+  & i {
+  color:#ffffff;
+  padding-top: 0.5rem;
+  }
+  }
+  }
+  .gridFooterItem:nth-child(3){
+  color: rgba(240, 15, 15, 0.939);  
+  grid-column: 3/4;
+  grid-row: 1/2;    
+  font-size: 1fr;   
+  display: flex;
+  flex-direction: column;         
+  align-self: center;
+  text-align: center;
+  & a{
+  color: #ffffff;
+  padding-left: 1rem;
+  }
+  }
+  .gridFooterItem:last-child{
+  grid-column: 1/ 4;
+  grid-row: 2/3;  
+  background:rgba(240, 15, 15, 0.474);
+  display: flex;
+  justify-content: center;
+  padding-top: 0.2rem;
+  & p{
+  margin-bottom: 0;      
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  color: white;    
+  }
+  }
+  
