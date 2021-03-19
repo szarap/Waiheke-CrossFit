@@ -1,7 +1,7 @@
 .prog {
   display: grid;
   justify-content: space-between;
-  padding-top: 1.5rem;
+  padding-top: 2.5rem;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
   width: auto;
@@ -9,17 +9,19 @@
   /*  border-top: white solid 1px;
     border-bottom: white solid 1px; */ }
   .prog .prog-titulo {
-    color: #000000;
-    font-size: 2rem;
-    text-decoration: solid;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+    height: 40rem;
     border-radius: 3px;
-    border: 5px solid;
     border-color: rgba(255, 255, 255, 0.118);
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
     background-image: url(../img/imgIndex2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40rem; }
+    opacity: 0.5; }
   .prog .tarjeta {
     display: flex;
     justify-content: center;
@@ -160,6 +162,8 @@ body {
     opacity: 0.85;
     color: #ffffff;
     margin: 0 1rem; }
+    .section--3 .box a:link, .section--3 .box a:visited, .section--3 .box a:active {
+      text-decoration: none; }
     .section--3 .box :hover {
       color: #ffffff;
       border: #da22226e solid 1px;
@@ -178,8 +182,25 @@ body {
   .section--3 .box1d {
     background-image: url(../IMG/imgIndex5.jpg); }
 
+/* -------tarjetas------- */
 .tarjeta-index {
-  color: #f30909; }
+  width: auto;
+  height: 25rem;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: rgba(177, 177, 177, 0.85);
+  margin-bottom: 0.5rem;
+  color: #000000;
+  box-shadow: 3px 3px rgba(177, 177, 177, 0.85), 1em 0 0.4em rgba(177, 177, 177, 0.474);
+  font-size: 1rem; }
+  .tarjeta-index a {
+    font-size: 3rem; }
+
+.tarjeta-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; }
 
 /* --------------footer------------ */
 .gridFooterContainer {
