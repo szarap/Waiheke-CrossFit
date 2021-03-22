@@ -29,36 +29,36 @@
     font-family: 'Carter One', cursive;
     font-family: 'Coda Caption', sans-serif;
     font-family: 'Saira Stencil One', cursive;
-    color:rgba(0, 0, 0, 1) ;      
+    color:rgba(0, 0, 0, 1);      
     text-shadow: -2px -2px 1px rgb(255, 255, 255), 2px 2px 1px rgb(255, 255, 255), -2px 2px 1px rgb(255, 255, 255), 2px -2px 1px rgb(255, 255, 255);
     }
   }
   .menu{
     display: flex;
-    height: 3.5rem;        
-    background-color: black;
-    text-align: center;
-    justify-content: center;  
+    height: 3.5rem;
+    background-color:  rgb(243, 9, 9);
+    border-color:  rgb(243, 9, 9); 
     opacity: 0.87;
-    border-color: black;
-    border-bottom-color: rgb(255, 255, 255);
     border-style: solid;     
+    text-align: center;
+    justify-content: center; 
+    border-bottom-color:#000000; 
     & li a {
     display: inline-block;    
     position: relative;    
     z-index: -1rem;
-    color: rgb(243, 9, 9);
+    color:#000000;
     text-transform: capitalize;      
     font-size: 2rem;    
     font-family: 'Odibee Sans', cursive;
     text-align: center;
     text-decoration: none;
-    font-weight: bold;   
+    font-weight: bold;
     &:hover {
       -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
       transform: scale(1.2);
-      text-shadow: 1px 1px 1px rgba(145, 138, 138, 0.953);            
+      text-shadow: 1px 1px 1px #ffffff;               
     } 
   }
 }
@@ -202,7 +202,8 @@
   
  /* --------------footer------------ */
  .gridFooterContainer{                      
-  background: rgba(0, 0, 0, 0.7);     
+  /* background: rgba(0, 0, 0, 0.7);*/  
+  background-color:#0000;
   width: 100%;
   height: auto;       
   display: grid;

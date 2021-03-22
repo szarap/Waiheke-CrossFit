@@ -1,39 +1,54 @@
+figure {
+  position: relative; }
+  figure .prog-t {
+    text-align: center;
+    vertical-align: text-top; }
+
+figure:before,
+figure:after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute; }
+
+img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
 .prog {
   display: grid;
   justify-content: space-between;
-  padding-top: 2.5rem;
+  padding: 2.5rem 0rem;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
   width: auto;
-  height: auto; }
-  .prog .prog-titulo {
+  height: auto;
+  /* .prog-titulo{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     width: auto;
     height: 36rem;
     border-radius: 3px;
-    border-color: rgba(255, 255, 255, 0.118);
+    border-color:rgba(255, 255, 255, 0.118);
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
-    background-image: url(../img/imgIndex2.jpg);
+    background-image:url(../img/imgIndex2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8; }
-  .prog .prog-t1 {
-    font-size: 4rem;
-    font-family: 'Odibee Sans', cursive;
-    color: #cc0909;
-    text-shadow: 2px 2px 2px #141414;
-    text-align: center; }
-  .prog .tarjeta {
+    opacity: 0.8;}*/ }
+  .prog .tarjeta-prin {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     text-align: center;
     width: auto;
-    height: 40rem;
+    height: 41rem;
     border-radius: 3px;
     border: 5px solid;
     border-color: rgba(255, 255, 255, 0.118);
@@ -42,7 +57,32 @@
     opacity: 0.85;
     color: #ffffff;
     font-family: 'Odibee Sans', cursive;
-    font-size: 1rem; }
+    font-size: 1rem;
+    padding-bottom: 0.5rem; }
+    .prog .tarjeta-prin h1 {
+      font-size: 2.5rem;
+      font-family: 'Odibee Sans', cursive;
+      color: #cc0909;
+      text-shadow: 2px 2px 2px #141414;
+      text-align: center; }
+  .prog .tarjeta {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: 41rem;
+    border-radius: 3px;
+    border: 5px solid;
+    border-color: rgba(255, 255, 255, 0.118);
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.85;
+    color: #ffffff;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 1rem;
+    padding: 0.5rem; }
   .prog span {
     font-size: 3rem;
     text-transform: capitalize;
@@ -52,9 +92,50 @@
   .prog p {
     text-align: justify;
     font-size: 1.4rem; }
+  .prog .prog-t1 {
+    background-image: url(../img/imgIndex7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8; }
+  .prog .prog-t2 {
+    background-image: url(../img/imgIndex7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8; }
+  .prog .prog-t3 {
+    background-image: url(../img/imgIndex7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8; }
+  .prog .prog-t4 {
+    background-image: url(../img/imgIndex7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8; }
+  .prog .prog-t5 {
+    background-image: url(../img/imgIndex7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8; }
+  .prog .prog-t6 {
+    background-image: url(../img/imgIndex7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8; }
 
 .wod-t1 {
   font-size: 5rem; }
+
+.ab-t {
+  font-size: 2rem;
+  text-transform: capitalize;
+  background-color: #ff0202;
+  font-family: 'Arya', sans-serif; }
+
+.ab-p {
+  background-color: rgba(255, 2, 2, 0.774);
+  font-size: 1rem;
+  font-family: 'Arya', sans-serif; }
 
 * {
   margin: 0px;
@@ -89,18 +170,18 @@ body {
 .menu {
   display: flex;
   height: 3.5rem;
-  background-color: black;
+  background-color: #f30909;
+  border-color: #f30909;
+  opacity: 0.87;
+  border-style: solid;
   text-align: center;
   justify-content: center;
-  opacity: 0.87;
-  border-color: black;
-  border-bottom-color: white;
-  border-style: solid; }
+  border-bottom-color: #000000; }
   .menu li a {
     display: inline-block;
     position: relative;
     z-index: -1rem;
-    color: #f30909;
+    color: #000000;
     text-transform: capitalize;
     font-size: 2rem;
     font-family: 'Odibee Sans', cursive;
@@ -111,7 +192,7 @@ body {
       -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
       transform: scale(1.2);
-      text-shadow: 1px 1px 1px rgba(145, 138, 138, 0.953); }
+      text-shadow: 1px 1px 1px #ffffff; }
 
 /* seccion eslogan*/
 .section--2 {
@@ -235,7 +316,8 @@ body {
 
 /* --------------footer------------ */
 .gridFooterContainer {
-  background: rgba(0, 0, 0, 0.7);
+  /* background: rgba(0, 0, 0, 0.7);*/
+  background-color: #0000;
   width: 100%;
   height: auto;
   display: grid;

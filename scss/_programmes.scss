@@ -1,13 +1,37 @@
-.prog{
+figure {
+    position: relative;
+    .prog-t{
+        text-align: center;
+        vertical-align: text-top;        
+    }
+  }
+   
+  figure:before,
+  figure:after {
+    content: ''; 
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  } 
+    .prog{
     display: grid;
     justify-content: space-between; 
-    padding-top: 2.5rem;
+    padding: 2.5rem 0rem;
     grid-template-columns: auto auto auto; 
     grid-template-rows: auto auto auto; 
     width: auto;
     height: auto;  
     
-    .prog-titulo{
+    /* .prog-titulo{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -20,41 +44,96 @@
     background-image:url(../img/imgIndex2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;}
-    .prog-t1{
-    font-size: 4rem;
-    font-family: 'Odibee Sans', cursive;
-    color: rgb(204, 9, 9);
-    text-shadow: 2px 2px 2px #141414;
-    text-align: center; 
+    opacity: 0.8;}*/
+   
+    .tarjeta-prin{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center; 
+        width: auto;
+        height: 41rem;
+        border-radius: 3px;
+        border: 5px solid;
+        border-color:rgba(255, 255, 255, 0.118);
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;  
+        opacity: 0.85;
+        color: #ffffff;
+        font-family: 'Odibee Sans', cursive;
+        font-size: 1rem;
+        padding-bottom: 0.5rem;        
+        h1{
+            font-size: 2.5rem;
+            font-family: 'Odibee Sans', cursive;
+            color: rgb(204, 9, 9);
+            text-shadow: 2px 2px 2px #141414;
+            text-align: center;}     
     }
     .tarjeta{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
-    width: auto;
-    height: 40rem;
-    border-radius: 3px;
-    border: 5px solid;
-    border-color:rgba(255, 255, 255, 0.118);
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;  
-    opacity: 0.85;
-    color: #ffffff;
-    font-family: 'Odibee Sans', cursive;
-    font-size: 1rem;    
-    }
-    span{
-    font-size: 3rem;
-    text-transform: capitalize;    
-    font-family: 'Odibee Sans', cursive;
-    color: rgb(204, 9, 9);
-    text-shadow: 2px 2px 2px #141414;    
-    }
-    p{
-    text-align: justify;
-    font-size: 1.4rem;
-     } 
-}
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+        text-align: center; 
+        width: auto;
+        height: 41rem;
+        border-radius: 3px;
+        border: 5px solid;
+        border-color:rgba(255, 255, 255, 0.118);
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;  
+        opacity: 0.85;
+        color: #ffffff;
+        font-family: 'Odibee Sans', cursive;
+        font-size: 1rem;
+        padding: 0.5rem;}
+        span{
+            font-size: 3rem;
+            text-transform: capitalize;    
+            font-family: 'Odibee Sans', cursive;
+            color: rgb(204, 9, 9);
+            text-shadow: 2px 2px 2px #141414;}
+        p{
+            text-align: justify;
+            font-size: 1.4rem;}
+            
+        .prog-t1{
+            background-image: url(../img/imgIndex7.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity:0.8;
+        }
+        .prog-t2{
+            background-image: url(../img/imgIndex7.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity:0.8;
+        }
+        .prog-t3{
+            background-image: url(../img/imgIndex7.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity:0.8;
+        }
+        .prog-t4{
+            background-image: url(../img/imgIndex7.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity:0.8;
+        }
+        .prog-t5{
+            background-image: url(../img/imgIndex7.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity:0.8;
+        }
+        .prog-t6{
+            background-image: url(../img/imgIndex7.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity:0.8;
+        }
+        
+    } 
