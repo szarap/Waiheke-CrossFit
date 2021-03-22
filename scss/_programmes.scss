@@ -5,43 +5,56 @@
     grid-template-columns: auto auto auto; 
     grid-template-rows: auto auto auto; 
     width: auto;
-    height: auto;   
-   /*  border-top: white solid 1px;
-    border-bottom: white solid 1px; */
-.prog-titulo{
-display: flex;
-justify-content: center;
-align-items: flex-start;
-width: auto;
-height: 40rem;
-border-radius: 3px;
-border-color:rgba(255, 255, 255, 0.118);
-margin-right: 0.5rem;
-margin-bottom: 0.5rem;
-background-image:url(../img/imgIndex2.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-opacity: 0.5;
-}
-.tarjeta{
-display: flex;
-justify-content: center;
-align-items: center;
-width: auto;
-height: 40rem;
-border-radius: 3px;
-border: 5px solid;
-border-color:rgba(255, 255, 255, 0.118);
-margin-right: 0.5rem;
-margin-bottom: 0.5rem;  
-opacity: 0.85;
-color: #ffffff;    
-}
-span{
-font-size: 1.5rem;
-text-transform: capitalize;   
-}
-p{
-font-size: 1rem;
-}   
+    height: auto;  
+    
+    .prog-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: auto;
+    height: 36rem;
+    border-radius: 3px;
+    border-color:rgba(255, 255, 255, 0.118);
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-image:url(../img/imgIndex2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;}
+    .prog-t1{
+    font-size: 4rem;
+    font-family: 'Odibee Sans', cursive;
+    color: rgb(204, 9, 9);
+    text-shadow: 2px 2px 2px #141414;
+    text-align: center; 
+    }
+    .tarjeta{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    width: auto;
+    height: 40rem;
+    border-radius: 3px;
+    border: 5px solid;
+    border-color:rgba(255, 255, 255, 0.118);
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;  
+    opacity: 0.85;
+    color: #ffffff;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 1rem;    
+    }
+    span{
+    font-size: 3rem;
+    text-transform: capitalize;    
+    font-family: 'Odibee Sans', cursive;
+    color: rgb(204, 9, 9);
+    text-shadow: 2px 2px 2px #141414;    
+    }
+    p{
+    text-align: justify;
+    font-size: 1.4rem;
+     } 
 }

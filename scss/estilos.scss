@@ -1,4 +1,6 @@
 @import "_programmes.scss";
+@import "_wod.scss";
+@import "_aboutus.scss";
 
 * {
     margin: 0px;
@@ -6,8 +8,7 @@
     box-sizing: border-box; }
   
   body {
-    background: rgba(0, 0, 0, 0.7);
-
+    background: rgba(0, 0, 0, 0.55);
   }
   /* menu */
     .imgContainer {                    
@@ -115,7 +116,7 @@
   display: flex;
   justify-content: space-between;        
   font-family: 'Odibee Sans', cursive;  
-  margin: 2rem 0;
+  margin: 2rem 0 5rem 0;
   .box{
   display: flex;
   justify-content: center;
@@ -133,8 +134,7 @@
   color: #ffffff;    
   margin: 0 1rem;
   a:link, a:visited, a:active {
-  text-decoration:none;}
-  
+  text-decoration:none;}  
   & :hover{
     color: #ffffff;
     border: #da22226e solid 1px;
@@ -161,27 +161,45 @@
 }
 
 /* -------tarjetas------- */
-.tarjeta-index{ 
+.info{
   width: auto;
-  height: 25rem;
-  border-radius: 3px;
+  height: auto;
+  border-radius: 18px;
   border: 1px solid;
   border-color:rgba(177, 177, 177, 0.85); 
-  margin-bottom: 0.5rem;  
-  color:#000000;
-  box-shadow: 3px 3px rgba(177, 177, 177, 0.85), 1em 0 0.4em rgba(177, 177, 177, 0.474);
-  font-size: 1rem;
-  a{
-    font-size: 3rem;
-  }  
-  }
-  .tarjeta-1{
+  margin-bottom: 1.5rem;
+  padding: 1rem 0.3rem;
+  box-shadow: 3px 3px rgba(177, 177, 177, 0.85);  
+  background: rgba(0, 0, 0, 0.7);
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
+  justify-content:center;
+  align-self: center;
+  text-align: justify;
+  font-size: 1.4rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  padding: 0px 7rem;
+  .sub-t1{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.3rem;
+    font-family: 'Odibee Sans', cursive;
+    text-shadow: 2px 2px 2px #000000;     
   }
-
+  .sub-t2{
+    display: flex;    
+    font-size: 2.3rem;
+    font-family: 'Odibee Sans', cursive;
+    text-shadow: 2px 2px 2px #000000;    
+  }
+  .sub-t3{
+    background: rgba(24, 24, 24, 0.7);
+    border-radius: 3%;
+    padding: 0px 0.3rem;
+    color:rgba(177, 177, 177, 0.8500);  
+  }
+}
+  
  /* --------------footer------------ */
  .gridFooterContainer{                      
   background: rgba(0, 0, 0, 0.7);     
@@ -258,18 +276,18 @@
   padding-left: 1rem;
   }
   }
-  .gridFooterItem:last-child{
-  grid-column: 1/ 4;
-  grid-row: 2/3;  
-  background:rgba(240, 15, 15, 0.474);
-  display: flex;
-  justify-content: center;
-  padding-top: 0.2rem;
-  & p{
-  margin-bottom: 0;      
-  letter-spacing: 1px;
-  font-size: 0.8rem;
-  color: white;    
+  .gridFooterItem:last-child {
+    grid-column: 1/4;
+    grid-row: 2/3;  
+    background:rgba(240, 15, 15, 0.474);
+    display: flex;
+    justify-content: center;
+    padding-top: 0.2rem;
+    & p{
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    color: #ffffff;}
   }
-  }
+  
   

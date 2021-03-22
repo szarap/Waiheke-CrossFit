@@ -5,15 +5,13 @@
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
   width: auto;
-  height: auto;
-  /*  border-top: white solid 1px;
-    border-bottom: white solid 1px; */ }
+  height: auto; }
   .prog .prog-titulo {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     width: auto;
-    height: 40rem;
+    height: 36rem;
     border-radius: 3px;
     border-color: rgba(255, 255, 255, 0.118);
     margin-right: 0.5rem;
@@ -21,11 +19,19 @@
     background-image: url(../img/imgIndex2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5; }
+    opacity: 0.8; }
+  .prog .prog-t1 {
+    font-size: 4rem;
+    font-family: 'Odibee Sans', cursive;
+    color: #cc0909;
+    text-shadow: 2px 2px 2px #141414;
+    text-align: center; }
   .prog .tarjeta {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: auto;
     height: 40rem;
     border-radius: 3px;
@@ -34,12 +40,21 @@
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
     opacity: 0.85;
-    color: #ffffff; }
-  .prog span {
-    font-size: 1.5rem;
-    text-transform: capitalize; }
-  .prog p {
+    color: #ffffff;
+    font-family: 'Odibee Sans', cursive;
     font-size: 1rem; }
+  .prog span {
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-family: 'Odibee Sans', cursive;
+    color: #cc0909;
+    text-shadow: 2px 2px 2px #141414; }
+  .prog p {
+    text-align: justify;
+    font-size: 1.4rem; }
+
+.wod-t1 {
+  font-size: 5rem; }
 
 * {
   margin: 0px;
@@ -47,7 +62,7 @@
   box-sizing: border-box; }
 
 body {
-  background: rgba(0, 0, 0, 0.7); }
+  background: rgba(0, 0, 0, 0.55); }
 
 /* menu */
 .imgContainer {
@@ -145,7 +160,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-family: 'Odibee Sans', cursive;
-  margin: 2rem 0; }
+  margin: 2rem 0 5rem 0; }
   .section--3 .box {
     display: flex;
     justify-content: center;
@@ -183,24 +198,40 @@ body {
     background-image: url(../IMG/imgIndex5.jpg); }
 
 /* -------tarjetas------- */
-.tarjeta-index {
+.info {
   width: auto;
-  height: 25rem;
-  border-radius: 3px;
+  height: auto;
+  border-radius: 18px;
   border: 1px solid;
   border-color: rgba(177, 177, 177, 0.85);
-  margin-bottom: 0.5rem;
-  color: #000000;
-  box-shadow: 3px 3px rgba(177, 177, 177, 0.85), 1em 0 0.4em rgba(177, 177, 177, 0.474);
-  font-size: 1rem; }
-  .tarjeta-index a {
-    font-size: 3rem; }
-
-.tarjeta-1 {
+  margin-bottom: 1.5rem;
+  padding: 1rem 0.3rem;
+  box-shadow: 3px 3px rgba(177, 177, 177, 0.85);
+  background: rgba(0, 0, 0, 0.7);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end; }
+  align-self: center;
+  text-align: justify;
+  font-size: 1.4rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  padding: 0px 7rem; }
+  .info .sub-t1 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.3rem;
+    font-family: 'Odibee Sans', cursive;
+    text-shadow: 2px 2px 2px #000000; }
+  .info .sub-t2 {
+    display: flex;
+    font-size: 2.3rem;
+    font-family: 'Odibee Sans', cursive;
+    text-shadow: 2px 2px 2px #000000; }
+  .info .sub-t3 {
+    background: rgba(24, 24, 24, 0.7);
+    border-radius: 3%;
+    padding: 0px 0.3rem;
+    color: rgba(177, 177, 177, 0.85); }
 
 /* --------------footer------------ */
 .gridFooterContainer {
@@ -273,14 +304,14 @@ body {
     padding-left: 1rem; }
 
 .gridFooterItem:last-child {
-  grid-column: 1/ 4;
+  grid-column: 1/4;
   grid-row: 2/3;
   background: rgba(240, 15, 15, 0.474);
   display: flex;
   justify-content: center;
   padding-top: 0.2rem; }
   .gridFooterItem:last-child p {
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
     letter-spacing: 1px;
     font-size: 0.8rem;
-    color: white; }
+    color: #ffffff; }
