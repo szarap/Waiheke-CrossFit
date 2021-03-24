@@ -31,7 +31,7 @@ figure {
     width: auto;
     height: auto;  
     
-    /* .prog-titulo{
+/*     .prog-titulo{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -44,7 +44,7 @@ figure {
     background-image:url(../img/imgIndex2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;}*/
+    opacity: 0.8;} */
    
     .tarjeta-prin{
         display: flex;
@@ -59,18 +59,17 @@ figure {
         border-color:rgba(255, 255, 255, 0.118);
         margin-right: 0.5rem;
         margin-bottom: 0.5rem;  
-        opacity: 0.85;
-        color: #ffffff;
-        font-family: 'Odibee Sans', cursive;
-        font-size: 1rem;
-        padding-bottom: 0.5rem;        
+        opacity: 0.8;
+        font-family: 'Odibee Sans', cursive;                  
         h1{
-            font-size: 2.5rem;
+            font-size: 3.25rem;
             font-family: 'Odibee Sans', cursive;
             color: rgb(204, 9, 9);
             text-shadow: 2px 2px 2px #141414;
-            text-align: center;}     
-    }
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.897);
+            padding: 0px 0.5rem;}     
+        }
     .tarjeta{
         display: flex;
         flex-direction: column-reverse;
@@ -85,46 +84,47 @@ figure {
         margin-right: 0.5rem;
         margin-bottom: 0.5rem;  
         opacity: 0.85;
-        color: #ffffff;
-        font-family: 'Odibee Sans', cursive;
-        font-size: 1rem;
-        padding: 0.5rem;}
+        color: #ffffff;    
+        font-size: 1.25rem;
+        padding: 1rem;}
         span{
-            font-size: 3rem;
+            font-size: 2.5rem;
             text-transform: capitalize;    
             font-family: 'Odibee Sans', cursive;
-            color: rgb(204, 9, 9);
+            color: rgba(235, 15, 15, 0.959);
             text-shadow: 2px 2px 2px #141414;}
         p{
-            text-align: justify;
-            font-size: 1.4rem;}
+            text-align: justify;           
+            background-color: rgba(0, 0, 0, 0.322);}
+            font-family: 'Lobster Two', cursive;
+            font-family: 'Ubuntu Condensed', sans-serif;
             
         .prog-t1{
-            background-image: url(../img/imgIndex7.jpg);
+            background-image: url(../img/prog3.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             opacity:0.8;
         }
         .prog-t2{
-            background-image: url(../img/imgIndex7.jpg);
+            background-image: url(../img/prog10.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             opacity:0.8;
         }
         .prog-t3{
-            background-image: url(../img/imgIndex7.jpg);
+            background-image: url(../img/prog1.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             opacity:0.8;
         }
         .prog-t4{
-            background-image: url(../img/imgIndex7.jpg);
+            background-image: url(../img/prog5jpg.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             opacity:0.8;
         }
         .prog-t5{
-            background-image: url(../img/imgIndex7.jpg);
+            background-image: url(../img/prog7.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             opacity:0.8;

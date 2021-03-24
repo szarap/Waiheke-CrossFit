@@ -27,7 +27,7 @@ img {
   grid-template-rows: auto auto auto;
   width: auto;
   height: auto;
-  /* .prog-titulo{
+  /*     .prog-titulo{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -40,7 +40,9 @@ img {
     background-image:url(../img/imgIndex2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;}*/ }
+    opacity: 0.8;} */
+  font-family: 'Lobster Two', cursive;
+  font-family: 'Ubuntu Condensed', sans-serif; }
   .prog .tarjeta-prin {
     display: flex;
     flex-direction: column-reverse;
@@ -54,17 +56,16 @@ img {
     border-color: rgba(255, 255, 255, 0.118);
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
-    opacity: 0.85;
-    color: #ffffff;
-    font-family: 'Odibee Sans', cursive;
-    font-size: 1rem;
-    padding-bottom: 0.5rem; }
+    opacity: 0.8;
+    font-family: 'Odibee Sans', cursive; }
     .prog .tarjeta-prin h1 {
-      font-size: 2.5rem;
+      font-size: 3.25rem;
       font-family: 'Odibee Sans', cursive;
       color: #cc0909;
       text-shadow: 2px 2px 2px #141414;
-      text-align: center; }
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.897);
+      padding: 0px 0.5rem; }
   .prog .tarjeta {
     display: flex;
     flex-direction: column-reverse;
@@ -80,40 +81,39 @@ img {
     margin-bottom: 0.5rem;
     opacity: 0.85;
     color: #ffffff;
-    font-family: 'Odibee Sans', cursive;
-    font-size: 1rem;
-    padding: 0.5rem; }
+    font-size: 1.25rem;
+    padding: 1rem; }
   .prog span {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-transform: capitalize;
     font-family: 'Odibee Sans', cursive;
-    color: #cc0909;
+    color: rgba(235, 15, 15, 0.959);
     text-shadow: 2px 2px 2px #141414; }
   .prog p {
     text-align: justify;
-    font-size: 1.4rem; }
+    background-color: rgba(0, 0, 0, 0.322); }
   .prog .prog-t1 {
-    background-image: url(../img/imgIndex7.jpg);
+    background-image: url(../img/prog3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8; }
   .prog .prog-t2 {
-    background-image: url(../img/imgIndex7.jpg);
+    background-image: url(../img/prog10.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8; }
   .prog .prog-t3 {
-    background-image: url(../img/imgIndex7.jpg);
+    background-image: url(../img/prog1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8; }
   .prog .prog-t4 {
-    background-image: url(../img/imgIndex7.jpg);
+    background-image: url(../img/prog5jpg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8; }
   .prog .prog-t5 {
-    background-image: url(../img/imgIndex7.jpg);
+    background-image: url(../img/prog7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8; }
@@ -122,9 +122,6 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8; }
-
-.wod-t1 {
-  font-size: 5rem; }
 
 .ab-t {
   font-size: 2rem;
@@ -147,7 +144,8 @@ body {
 
 /* menu */
 .imgContainer {
-  background: url(../IMG/portada_4.jpeg);
+  /* background: url(../IMG/portada_4.jpeg); */
+  background: url(../img/portada7.jpg);
   position: relative;
   z-index: -1rem;
   background-repeat: no-repeat;
@@ -184,7 +182,8 @@ body {
     color: #000000;
     text-transform: capitalize;
     font-size: 2rem;
-    font-family: 'Odibee Sans', cursive;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    /* font-family: 'Odibee Sans', cursive; */
     text-align: center;
     text-decoration: none;
     font-weight: bold; }
@@ -270,13 +269,13 @@ body {
       justify-content: center;
       align-items: flex-end; }
   .section--3 .box1a {
-    background-image: url(../IMG/imgIndex6.jpg); }
+    background-image: url(../img/imgIndex6.jpg); }
   .section--3 .box1b {
-    background-image: url(../IMG/imgIndex3.jpg); }
+    background-image: url(../img/imgIndex18.jpg); }
   .section--3 .box1c {
-    background-image: url(../IMG/imgIndex4.jpg); }
+    background-image: url(../img/imgIndex4.jpg); }
   .section--3 .box1d {
-    background-image: url(../IMG/imgIndex5.jpg); }
+    background-image: url(../img/imgIndex5.jpg); }
 
 /* -------tarjetas------- */
 .info {

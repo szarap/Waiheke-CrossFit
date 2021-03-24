@@ -12,7 +12,8 @@
   }
   /* menu */
     .imgContainer {                    
-    background: url(../IMG/portada_4.jpeg);
+    /* background: url(../IMG/portada_4.jpeg); */
+    background: url(../img/portada7.jpg);
     position: relative;
     z-index: -1rem;
     background-repeat: no-repeat;
@@ -49,8 +50,9 @@
     z-index: -1rem;
     color:#000000;
     text-transform: capitalize;      
-    font-size: 2rem;    
-    font-family: 'Odibee Sans', cursive;
+    font-size: 2rem; 
+    font-family: 'Ubuntu Condensed', sans-serif;   
+    /* font-family: 'Odibee Sans', cursive; */
     text-align: center;
     text-decoration: none;
     font-weight: bold;
@@ -74,16 +76,13 @@
   padding-top: 5rem;
   padding-bottom: 3rem;
   font-family: 'Odibee Sans', cursive;
-  margin-bottom: 0.5rem;         
-  }
+  margin-bottom: 0.5rem;}
   h2{
   font-size: 4rem;
-  text-shadow: 0.5px 0.5px #0c0c0c;
-  }
+  text-shadow: 0.5px 0.5px #0c0c0c;}
   span{ 
   font-size: 8rem;
-  text-shadow: 1px 1px #ffffff;
-  }
+  text-shadow: 1px 1px #ffffff;}
   .textBox{  
   width: 19rem;
   height: 6rem;
@@ -105,12 +104,8 @@
     color:#ffffff;
     background-color:rgb(255, 2, 2);
     display: flex;
-    justify-content: center;
-   }
-    
+    justify-content: center;}    
   }
- 
-
 /* secccion contenido index */
 .section--3{ 
   display: flex;
@@ -143,21 +138,16 @@
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: flex-end; 
-  }      
+    align-items: flex-end;}      
   }  
-  .box1a{  
-  background-image: url(../IMG/imgIndex6.jpg);   
-  }
-  .box1b{    
-  background-image: url(../IMG/imgIndex3.jpg);
-  }
+  .box1a{ 
+  background-image: url(../img/imgIndex6.jpg);}
+  .box1b{
+  background-image: url(../img/imgIndex18.jpg);}
   .box1c{          
-  background-image: url(../IMG/imgIndex4.jpg);
-  }
+  background-image: url(../img/imgIndex4.jpg);}
   .box1d{     
-  background-image: url(../IMG/imgIndex5.jpg);
-}
+  background-image: url(../img/imgIndex5.jpg);}
 }
 
 /* -------tarjetas------- */
@@ -213,8 +203,7 @@
   grid-template-rows: auto auto auto;
   border-top: white solid 1px;
   border-bottom: white solid 1px;
-  }
-
+}
   .gridFooterItem ul{
   list-style-type: none;
   }
