@@ -12,14 +12,12 @@
   }
   /* menu */
     .imgContainer {               
-    background: url(../img/portada7.jpg);
-    position:relative;
-    align-items: flex-end;
+    background: url(../img/portada7.jpg);    
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
     max-width:100%;
-    height: 35em;
+    height: 49.5em;
     padding-top: 10rem;      
     h1 {    
     display: flex;
@@ -34,24 +32,17 @@
     color:rgba(0, 0, 0, 1);      
     text-shadow: -2px -2px 1px rgb(255, 255, 255), 2px 2px 1px rgb(255, 255, 255), -2px 2px 1px rgb(255, 255, 255), 2px -2px 1px rgb(255, 255, 255);
     } 
-
-    .navbar-brand{
-      display: flex;    
-      align-self:flex-end;     
-    }
-  
-    /* falta acomodar el logo */
   }
   .menu{    
     display: flex;
     height: 8.5rem;
     background-color:  rgb(243, 9, 9);
     border-color:  rgb(243, 9, 9); 
-    opacity: 0.8;
+    opacity: 0.85;
     border-style: solid;     
     text-align: center;
     justify-content: center; 
-    border-bottom-color:#000000; 
+    border-bottom-color:#000000;   
     & li a {   
     display: inline-block;   
     color:#000000;
@@ -60,24 +51,28 @@
     font-family: 'Ubuntu Condensed', sans-serif;   
     text-align: center;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold;    
     &:hover {
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
       text-shadow: 1px 1px 1px #ffffff;               
     } 
   }
 }
 /* seccion eslogan*/
 .section--2{
-  position: relative;
-  /* justify-self: center; */
+  max-width: 100%;
+  height: auto;
+  position:relative;
+  z-index: 1;
+  justify-self: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: rgba(0, 0, 0, 0.7);
   .boxMain {
+  margin-top: 17em;      
   color: rgba(145, 138, 138, 0.953);
   text-align: center;
   padding-top: 5rem;
@@ -118,12 +113,11 @@
   display: flex;
   justify-content: space-between;        
   font-family: 'Odibee Sans', cursive;  
-  margin: 2rem 0 5rem 0;
+  margin: 0.2rem 0;
   .box{
   display: flex;
   justify-content: center;
   align-items: flex-end;    
-  width: 25%;
   height:33rem;
   border-radius: 3px;
   border: 5px;
@@ -134,7 +128,7 @@
   background-size: cover;
   opacity: 0.85;
   color: #ffffff;    
-  margin: 0 1rem;
+  /* margin: 0 1rem; */
   a:link, a:visited, a:active {
   text-decoration:none;}  
   & :hover{
@@ -163,8 +157,7 @@
   height: auto;
   border-radius: 18px;
   border: 1px solid;
-  border-color:rgba(177, 177, 177, 0.85); 
-  margin-bottom: 1.5rem;
+  border-color:rgba(177, 177, 177, 0.85);   
   padding: 1rem 0.3rem;
   box-shadow: 3px 3px rgba(177, 177, 177, 0.85);  
   background: rgba(0, 0, 0, 0.253);
@@ -175,7 +168,7 @@
   text-align: justify;
   font-size: 1.4rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  padding: 0px 7rem;
+  padding: 2rem 7rem;
   .sub-t1{
     display: flex;
     justify-content: flex-end;
@@ -284,6 +277,30 @@
     letter-spacing: 1px;
     font-size: 0.8rem;
     color: #ffffff;}
+  }
+ 
+  
+  @media screen and (max-width: 800px){
+    .index__titulo{
+      h1{
+    font-size: 4rem;
+      }
+  }
+    .boxMain {
+     margin-bottom:-30em;     
+     margin-left:-26em;
+    }
+    .info{
+      padding:0 1rem;
+    }
+    .carousel-item{
+      transform: translateX(-400px);
+    }
+    .carousel-item--ultima{
+      transform: translateX(-800px);
+
+    }
+   
   }
   
   

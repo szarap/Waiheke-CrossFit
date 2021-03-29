@@ -1,3 +1,8 @@
+.container-fluid {
+  background-image: url(../img/portada7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .card-title {
   font-size: 2rem;
   text-transform: uppercase;
@@ -22,6 +27,12 @@
   background: rgba(0, 0, 0, 0.7);
   color: #ffffff; }
 
+.container-fluid {
+  background-image: url(../img/portada7.jpg);
+  opacity: 0.89;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .container {
   padding-top: 2rem; }
 
@@ -29,7 +40,8 @@
   font-size: 2rem;
   text-transform: capitalize;
   background-color: #ff0202;
-  font-family: 'Arya', sans-serif; }
+  font-family: 'Arya', sans-serif;
+  text-align: center; }
 
 .ab-p {
   background-color: rgba(255, 2, 2, 0.774);
@@ -47,15 +59,12 @@ body {
 /* menu */
 .imgContainer {
   background: url(../img/portada7.jpg);
-  position: relative;
-  align-items: flex-end;
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
-  height: 35em;
-  padding-top: 10rem;
-  /* falta acomodar el logo */ }
+  height: 49.5em;
+  padding-top: 10rem; }
   .imgContainer h1 {
     display: flex;
     text-align: center;
@@ -68,16 +77,13 @@ body {
     font-family: 'Saira Stencil One', cursive;
     color: black;
     text-shadow: -2px -2px 1px white, 2px 2px 1px white, -2px 2px 1px white, 2px -2px 1px white; }
-  .imgContainer .navbar-brand {
-    display: flex;
-    align-self: flex-end; }
 
 .menu {
   display: flex;
   height: 8.5rem;
   background-color: #f30909;
   border-color: #f30909;
-  opacity: 0.8;
+  opacity: 0.85;
   border-style: solid;
   text-align: center;
   justify-content: center;
@@ -92,20 +98,24 @@ body {
     text-decoration: none;
     font-weight: bold; }
     .menu li a:hover {
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
       text-shadow: 1px 1px 1px #ffffff; }
 
 /* seccion eslogan*/
 .section--2 {
+  max-width: 100%;
+  height: auto;
   position: relative;
-  /* justify-self: center; */
+  z-index: 1;
+  justify-self: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: rgba(0, 0, 0, 0.7); }
   .section--2 .boxMain {
+    margin-top: 17em;
     color: rgba(145, 138, 138, 0.953);
     text-align: center;
     padding-top: 5rem;
@@ -146,12 +156,11 @@ body {
   display: flex;
   justify-content: space-between;
   font-family: 'Odibee Sans', cursive;
-  margin: 2rem 0 5rem 0; }
+  margin: 0.2rem 0; }
   .section--3 .box {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    width: 25%;
     height: 33rem;
     border-radius: 3px;
     border: 5px;
@@ -162,7 +171,7 @@ body {
     background-size: cover;
     opacity: 0.85;
     color: #ffffff;
-    margin: 0 1rem; }
+    /* margin: 0 1rem; */ }
     .section--3 .box a:link, .section--3 .box a:visited, .section--3 .box a:active {
       text-decoration: none; }
     .section--3 .box :hover {
@@ -190,7 +199,6 @@ body {
   border-radius: 18px;
   border: 1px solid;
   border-color: rgba(177, 177, 177, 0.85);
-  margin-bottom: 1.5rem;
   padding: 1rem 0.3rem;
   box-shadow: 3px 3px rgba(177, 177, 177, 0.85);
   background: rgba(0, 0, 0, 0.253);
@@ -201,7 +209,7 @@ body {
   text-align: justify;
   font-size: 1.4rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  padding: 0px 7rem; }
+  padding: 2rem 7rem; }
   .info .sub-t1 {
     display: flex;
     justify-content: flex-end;
@@ -301,3 +309,16 @@ body {
     letter-spacing: 1px;
     font-size: 0.8rem;
     color: #ffffff; }
+
+@media screen and (max-width: 800px) {
+  .index__titulo h1 {
+    font-size: 4rem; }
+  .boxMain {
+    margin-bottom: -30em;
+    margin-left: -26em; }
+  .info {
+    padding: 0 1rem; }
+  .carousel-item {
+    transform: translateX(-400px); }
+  .carousel-item--ultima {
+    transform: translateX(-800px); } }
