@@ -83,7 +83,7 @@ body {
   z-index: 2;
   display: flex;
   justify-content: center;
-  height: 8.5rem;
+  height: 7.5rem;
   background-color: #f30909;
   border-color: #f30909;
   opacity: 0.9;
@@ -101,8 +101,9 @@ body {
       -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
       transform: scale(1.1);
-      text-shadow: 1px 1px 1px #ffffff; }
-  .menu .botonMenu {
+      text-shadow: 1px 1px 1px #ffffff;
+      background-color: rgba(243, 9, 9, 0.487); }
+  .menu #botonMenu {
     height: max-content; }
 
 /* seccion eslogan*/
@@ -111,9 +112,9 @@ body {
   height: auto;
   position: relative;
   z-index: 1;
-  justify-self: center;
   display: flex;
   flex-direction: column;
+  justify-self: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.7); }
   .section--2 .boxMain {
