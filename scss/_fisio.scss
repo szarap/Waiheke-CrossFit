@@ -4,23 +4,22 @@ height: 80rem;
 background-color: rgba(0, 0, 0, 0.837);
 }
 .card-img-overlay{
-    width: 21rem;
-    height: auto;
-    .card-title{
+    display: flex;
+    /* width: 21em;
+    height: auto; */
+    .card-title{     
         font-size: 2.5rem;
-        margin-top: 3rem;}
-    p{
+        margin-top: 3rem;
+        }
+    p{      
         font-size: 1.3rem;
         text-align: justify;
         margin-bottom: 3rem;        
         }
-    span{        
-        font-size: 2rem;
-        color:rgba(240, 15, 15, 0.939);
-        justify-content: center;
-        background-color: rgba(0, 0, 0, 0.837);
-
-        }    
+    .span-text{
+        
+    }
+       
 }
 .card-header{
     color: rgba(240, 15, 15, 0.939);
