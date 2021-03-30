@@ -308,86 +308,18 @@ body {
     color: rgba(225, 80, 27, 0.864);
     font-size: 1rem;
     letter-spacing: 0.3rem; }
-  .gridFooterItem p {
-    color: #ffffff;
-    margin-bottom: 0.5rem;
-    letter-spacing: 1px;
-    font-size: 0.85rem;
-    align-self: center;
-    background-color: rgba(240, 15, 15, 0.939);
-    text-align: center; }
 
-/*  .gridFooterItem:first-child{   
-  grid-column: 1/2;
-  grid-row: 1/2;      
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: center;
-  text-align: center;   
-  & .h4{
-  color: rgba(240, 15, 15, 0.939);    
-  }
-  & .h3{
-  font-family: 'Carter One', cursive;
-  font-family: 'Coda Caption', sans-serif;
-  font-family: 'Saira Stencil One', cursive;           
-  font-size: 1fr;
-  color:#ffffff;
-  letter-spacing: 3px; 
-  text-shadow: 2px 2px 2px #f30a0a;   
-  } 
-  }   
-  .gridFooterItem:nth-child(2){
-  grid-column: 2 / 3;
-  grid-row: 1 / 2; 
-  font-size: 1fr;    
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: center;
-  text-align: center;
-  .socialM{
-  width: 15rem;
-  margin-top: 0.5rem;
-  border-top: rgba(240, 15, 15, 0.939) solid 3px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-self: center;
-  text-align: center;
-  & i {
-  color:#ffffff;
-  padding-top: 0.5rem;
-  }
-  }
-  }
-  .gridFooterItem:nth-child(3){
-  color: rgba(240, 15, 15, 0.939);  
-  grid-column: 3/4;
-  grid-row: 1/2;    
-  font-size: 1fr;   
-  display: flex;
-  flex-direction: column;         
-  align-self: center;
-  text-align: center;
-  & a{
-  color: #ffffff;
-  padding-left: 1rem;
-  }
-  }
-  .gridFooterItem:last-child {
-    grid-column: 1/4;
-    grid-row: 2/3; 
-    border: #ffffff solid 1px;      
-    & p{
-    padding-left: 1.4rem; 
-    margin-bottom: 0.5rem;
-    letter-spacing: 1px;
-    font-size: 0.8rem;
-    color: #ffffff;
-    align-self: center; } 
-  } */
+.derechos .col-lg-12 {
+  padding: 0; }
+
+.derecho__parrafo {
+  /*text-align: center;    
+    
+    margin-bottom:0;    
+    justify-content: center;
+    font-size: 0.99rem; */
+  background-color: rgba(240, 15, 15, 0.802); }
+
 @media screen and (max-width: 770px) {
   .imgContainer H1 {
     font-size: 5rem;
