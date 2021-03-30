@@ -1,6 +1,7 @@
 @import "_programmes.scss";
 @import "_wod.scss";
 @import "_aboutus.scss";
+@import "_fisio.scss";
 
 * {
     margin: 0px;
@@ -8,18 +9,19 @@
     box-sizing: border-box; }
   
   body {
-    background: rgba(95, 93, 93, 0.507);
+    /* background: rgba(95, 93, 93, 0.507); */
+    background: url(../img/portada7.jpg);  
   }
+
   /* menu */
-    .imgContainer {               
+  .imgContainer {               
     background: url(../img/portada7.jpg);    
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
     max-width:100%;
     height: 49.5em;
-    padding-top: 9rem;
-   
+    padding-top: 9rem;   
     h1 {       
     display: flex;
     text-align: center;
@@ -28,10 +30,9 @@
     letter-spacing: 1rem;                     
     font-family: 'Carter One', cursive;
     font-family: 'Coda Caption', sans-serif;
-    font-family: 'Saira Stencil One', cursive;
-   /*  color:rgba(0, 0, 0, 1);  */     
+    font-family: 'Saira Stencil One', cursive;   
     text-shadow: -2px -2px 1px rgb(255, 255, 255), 2px 2px 1px rgb(255, 255, 255), -2px 2px 1px rgb(255, 255, 255), 2px -2px 1px rgb(255, 255, 255);
-    } 
+    }
   }
   .menu{ 
     z-index: 2;   
@@ -45,31 +46,29 @@
     text-align: center;
     justify-content: center;  
     border-bottom-color:#000000;   
-    & li a {      
-    color:#000000;    
-    text-transform: capitalize;      
-    font-size: 2.5rem; 
-    font-family: 'Ubuntu Condensed', sans-serif;   
-    text-decoration: none;   
-    &:hover {
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      transform: scale(1.1);
-      text-shadow: 1px 1px 1px #ffffff;
-      background-color:  rgba(243, 9, 9, 0.487);
-                    
-    } 
+      & li a {      
+        color:#000000;    
+        text-transform: capitalize;      
+        font-size: 2.5rem; 
+        font-family: 'Ubuntu Condensed', sans-serif;   
+        text-decoration: none;   
+      &:hover {
+        -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        transform: scale(1.01);
+        text-shadow: 1px 1px 1px #ffffff;
+        background-color:  rgba(243, 9, 9, 0.487);
+      }
+    }
+    #botonMenu{
+      height: max-content;
+    }
   }
-  #botonMenu{
-    height: max-content;
-  }
-}
 /* seccion eslogan*/
 .section--2{
   max-width: 100%;
   height: auto;
-  position:relative;
-  z-index: 1;
+  position:relative; 
   display: flex;
   flex-direction: column;
   justify-self: center;
@@ -115,8 +114,7 @@
   }
 /* secccion contenido index */
 .section--3{ 
-  display: flex;
-  justify-content: space-between;        
+  justify-content:space-between;        
   font-family: 'Odibee Sans', cursive;  
   margin: 0.2rem 0;
   .box{
@@ -132,8 +130,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.85;
-  color: #ffffff;    
-  /* margin: 0 1rem; */
+  color: #ffffff;
+ /*  margin: 0 0.2rem;   */ 
   a:link, a:visited, a:active {
   text-decoration:none;}  
   & :hover{
@@ -144,7 +142,8 @@
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: flex-end;}      
+    align-items: flex-end;
+   }      
   }  
   .box1a{ 
   background-image: url(../img/imgIndex6.jpg);}
@@ -197,21 +196,62 @@
   
  /* --------------footer------------ */
  .gridFooterContainer{                      
-  background: rgba(0, 0, 0, 0.7);
-  width: 100%;
+  background: rgba(0, 0, 0, 0.905);
   height: auto;       
-  display: grid;
-  justify-content: space-between; 
   padding-top: 0.5rem;
-  grid-template-columns: auto auto auto; 
-  grid-template-rows: auto auto auto;
   border-top: white solid 1px;
   border-bottom: white solid 1px;
-}
-  .gridFooterItem ul{
-  list-style-type: none;
-  }
-  .gridFooterItem:first-child{   
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} 
+  .gridFooterItem{    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    & ul{
+      list-style-type: none;
+      }  
+   & .h4{
+      font-family: 'Carter One', cursive;
+      font-family: 'Coda Caption', sans-serif;
+      font-family: 'Saira Stencil One', cursive;           
+      font-size: 1fr;
+      color:#ffffff;
+      letter-spacing: 3px; 
+      text-shadow: 2px 2px 2px #f30a0a;   
+      }
+    & .h3{
+      color: rgba(240, 15, 15, 0.939);
+    }    
+    & .socialM{
+      color:rgb(153, 196, 230);
+      font-size: 2.5rem;
+    }
+    & .colorI{
+      color: rgba(225, 80, 27, 0.864);
+      font-size: 1rem;
+      letter-spacing: 0.3rem;
+    }
+    & p{
+      color:#ffffff;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+      font-size: 0.85rem;
+      align-self: center;
+      background-color:rgba(240, 15, 15, 0.939);
+      text-align: center; 
+    }
+    
+  }   
+
+    
+         
+         
+  
+
+ 
+ /*  .gridFooterItem:first-child{   
   grid-column: 1/2;
   grid-row: 1/2;      
   display: flex;
@@ -272,29 +312,54 @@
   }
   .gridFooterItem:last-child {
     grid-column: 1/4;
-    grid-row: 2/3;  
-    background:rgba(240, 15, 15, 0.474);
-    display: flex;
-    justify-content: center;
-    padding-top: 0.2rem;
+    grid-row: 2/3; 
+    border: #ffffff solid 1px;      
     & p{
+    padding-left: 1.4rem; 
     margin-bottom: 0.5rem;
     letter-spacing: 1px;
     font-size: 0.8rem;
-    color: #ffffff;}
-  }
+    color: #ffffff;
+    align-self: center; } 
+  } */
  
-  
+  @media screen and (max-width: 770px){
+    .imgContainer{
+      H1{
+        font-size: 5rem;
+        margin-top: 4em;
+        line-height: 2;        
+      }
+    }
+
+  }
   @media screen and (max-width: 800px){
+    .imgContainer{
+      H1{
+        font-size: 3rem;
+        margin-top: 4em;
+        line-height: 2;        
+      }
+    }
     .index__titulo{
       h1{
     font-size: 4rem;
       }
   }
-    .boxMain {
-     margin-bottom:-30em;     
-     margin-left:-26em;
+    .section--2{
+      .boxMain{
+        margin-top:40em;
+        span{
+          font-size: 6rem;
+      }
     }
+   .textBox{
+     font-size: 3rem;
+     padding:0;
+     width: 12rem;
+     height: 6rem;
+   }
+  }
     .info{
       padding:0 1rem;
     }
@@ -308,4 +373,34 @@
    
   }
   
+  @media screen and (min-width: 768px) and (max-width:799px){
+    .imgContainer{
+      H1{
+        font-size: 5rem;
+        margin-top: 2em;
+        line-height: 2;        
+      }
+    }
+
+  }
   
+@media screen and (min-width: 1024px) and (max-width:1278px){
+  .section--2{
+    .boxMain{
+      margin-top:10.5em;
+      h2{
+        margin-bottom: -0.5em;
+      }
+    }
+}
+}
+
+@media screen and (max-width: 610px){
+  .gridFooterContainer{
+    .gridFooterItem{
+      display: flex;
+      flex-direction: column;
+      max-width: auto;
+    }
+  }
+}

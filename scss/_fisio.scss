@@ -1,0 +1,47 @@
+.card-phy{
+max-width: 100%;
+height: 80rem;
+background-color: rgba(0, 0, 0, 0.837);
+}
+.card-img-overlay{
+    width: 21rem;
+    height: auto;
+    .card-title{
+        font-size: 2.5rem;
+        margin-top: 3rem;}
+    p{
+        font-size: 1.3rem;
+        text-align: justify;
+        margin-bottom: 3rem;        
+        }
+    span{        
+        font-size: 2rem;
+        color:rgba(240, 15, 15, 0.939);
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.837);
+
+        }    
+}
+.card-header{
+    color: rgba(240, 15, 15, 0.939);
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.body-phy{
+    padding: 0;
+    padding-top: 3rem;
+    opacity: 0.75;    
+    text-align: center;
+    border-top: #ffffff 1px solid;   
+    .card-title{       
+        color:#ffffff;               
+    }
+    .text-phy{
+        /* height:5rem; */ 
+        font-size: 1rem;        
+        text-transform: lowercase;
+        text-decoration:overline;
+
+    }  
+}
