@@ -93,14 +93,14 @@
   height: auto;
   padding: 0; }
   .card-img-overlay .card-title {
-    text-align: center;
     font-size: 2.3rem;
-    margin-top: 5em;
-    font-family: 'Oswald', sans-serif; }
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background-color: rgba(42, 43, 43, 0.919);
+    margin-bottom: 0; }
   .card-img-overlay p {
     font-size: 1.5rem;
     text-align: justify;
-    margin-top: 19em;
     color: rgba(240, 15, 15, 0.939);
     background-color: rgba(42, 43, 43, 0.919);
     font-family: 'Oswald', sans-serif; }
@@ -108,6 +108,12 @@
     font-size: 1.8rem;
     padding-left: 5em;
     text-align: center; }
+
+#tarjeta-phy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .card-header {
   color: rgba(240, 15, 15, 0.939);
@@ -131,6 +137,26 @@
     font-size: 1rem;
     text-transform: lowercase;
     text-decoration: overline; }
+
+#modal1 {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff; }
+
+@media screen and (max-width: 768px) {
+  .card-img-overlay .card-title {
+    font-size: 1.5rem; }
+  .card-img-overlay .card-text {
+    font-size: 1rem;
+    padding-bottom: 1em; } }
+
+@media screen and (min-width: 240px) and (max-width: 540px) {
+  .card-img-overlay {
+    margin-top: -8em; }
+    .card-img-overlay .card-title {
+      font-size: 1rem; }
+    .card-img-overlay .card-text {
+      font-size: 0.5rem;
+      padding-bottom: 1em; } }
 
 * {
   margin: 0px;
@@ -235,6 +261,10 @@ body {
     display: flex;
     justify-content: center; }
 
+#modal1 {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff; }
+
 /* secccion contenido index */
 .section--3 {
   justify-content: space-between;
@@ -253,8 +283,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.85;
-    color: #ffffff;
-    /*  margin: 0 0.2rem;   */ }
+    color: #ffffff; }
     .section--3 .box a:link, .section--3 .box a:visited, .section--3 .box a:active {
       text-decoration: none; }
     .section--3 .box :hover {

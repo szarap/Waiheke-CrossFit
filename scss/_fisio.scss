@@ -7,15 +7,16 @@ background-color: rgba(0, 0, 0, 0.837);
     width: 100%;
     height: auto;
     padding: 0;    
-    .card-title{
-        text-align: center;    
+    .card-title{     
         font-size: 2.3rem;
-        margin-top: 5em;
-        font-family: 'Oswald', sans-serif;}
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        background-color: rgba(42, 43, 43, 0.919);
+        margin-bottom: 0;}
+
     p{
         font-size: 1.5rem;           
-        text-align: justify;           
-        margin-top: 19em;
+        text-align: justify;       
         color: rgba(240, 15, 15, 0.939);
         background-color: rgba(42, 43, 43, 0.919);
         font-family: 'Oswald', sans-serif;}
@@ -23,6 +24,13 @@ background-color: rgba(0, 0, 0, 0.837);
         font-size: 1.8rem;
         padding-left: 5em;
         text-align: center;}       
+}
+#tarjeta-phy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 .card-header{
     color: rgba(240, 15, 15, 0.939);
@@ -51,3 +59,33 @@ background-color: rgba(0, 0, 0, 0.837);
 
     }  
 }
+    #modal1{
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #ffffff;
+    }
+
+    @media screen and (max-width:768px){
+        .card-img-overlay{
+            .card-title{
+                font-size:1.5rem;
+            }
+            .card-text{
+                font-size: 1rem;
+                padding-bottom: 1em;             
+        }       
+    }
+}
+@media screen and (min-width:240px) and (max-width:540px){
+    .card-img-overlay{
+        margin-top: -8em;
+        .card-title{
+            font-size:1rem;
+        }
+        .card-text{
+            font-size: 0.5rem;
+            padding-bottom: 1em;             
+    }       
+}
+}
+
+    

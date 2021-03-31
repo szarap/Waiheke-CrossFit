@@ -112,6 +112,11 @@
     display: flex;
     justify-content: center;}    
   }
+  #modal1{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+}
+
 /* secccion contenido index */
 .section--3{ 
   justify-content:space-between;        
@@ -130,8 +135,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.85;
-  color: #ffffff;
- /*  margin: 0 0.2rem;   */ 
+  color: #ffffff; 
   a:link, a:visited, a:active {
   text-decoration:none;}  
   & :hover{
