@@ -230,22 +230,25 @@
     }
     & .colorI{
       color: rgba(225, 80, 27, 0.864);
-      font-size: 1rem;
-      letter-spacing: 0.3rem;
+      font-size: 1.3rem;
+      letter-spacing: 0.2rem;
     }         
   }
-    .derechos{
+    .derechos{   
+       
       .derecho__parrafo{ /*   padding-right: 0; */      
         width:100%;
         background-color: rgba(240, 15, 15, 0.802);
-        font-size: 1.3rem;
-        text-align: center;
-        /* font-size: 1.2rem; */
+        font-size: 0.8rem;
+        text-align: center;                   
       }
     }
  
     .items__footer{
-      padding: 0 5em;
+      padding: 1em 5em;
+    }
+    .items__footer--last{
+      padding: 1em 0.5em;
     }
   @media screen and (max-width: 770px){
     .imgContainer{
